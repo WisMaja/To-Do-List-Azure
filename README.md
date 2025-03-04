@@ -1,6 +1,8 @@
 # TO DO LIST AZURE
 
-## Diagram Aktorów (Use Case Diagram)
+
+## Diagramy
+### Diagram Aktorów (Use Case Diagram)
 
 ```mermaid
 graph TD
@@ -22,7 +24,7 @@ graph TD
     J --> O(Zarządzaj grupami)
 ```
 
-## Diagram Sekwencji
+### Diagram Sekwencji
 
 ```mermaid
 sequenceDiagram
@@ -39,7 +41,7 @@ sequenceDiagram
     A-->>U: Wyświetla zadania grupy
 ```
 
-## Diagram Klas
+### Diagram Klas
 
 ```mermaid
 classDiagram
@@ -73,7 +75,7 @@ classDiagram
     Group "1" --> "0..*" Task : contains
 ```
 
-## Diagram Przepływu
+### Diagram Przepływu
 
 ```mermaid
 graph TD
@@ -88,3 +90,8 @@ B -->|Odszyfrowanie| A
 A -->|Wyświetla zadania grupy| U
 ```
 
+## Skład zespołu
+Karolina Dekajło
+Katarzyna Dudek
+Maja Wiśniewska
+Jakub Czabok
