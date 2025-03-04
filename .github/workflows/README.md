@@ -12,7 +12,8 @@ graph TD
     A --> G(Wyświetl zadania grupy)
     A --> H(Przydziel zadanie do grupy)
     A --> I(Dołącz do grupy)
-    
+```
+```mermaid    
     J[Administrator] --> K(Zarządzaj użytkownikami)
     J --> L(Usuń dowolne zadanie)
     J --> M(Wyświetl wszystkich użytkowników)
